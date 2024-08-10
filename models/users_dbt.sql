@@ -1,1 +1,1 @@
-SELECT * FROM DB_ECOMM.S3_ECOMM.Users
+SELECT * FROM {{source("koushik's sources","Users")}}
