@@ -1,0 +1,21 @@
+sources:
+  - name: "koushik's sources"
+    database: DB_ECOMM
+    schema: S3_ECOMM
+    tables:
+      - name: Users
+
+
+models:
+  - name: "koushik2"
+    config:
+      materialized: 'table'
+  - name: "users_dbt"
+    config:
+      materialized: 'view'
+  - name: "users_v2"
+    config:
+      materialized: 'table'
+  - name: "users_v3"
+    config:
+      materialized: 'view'
