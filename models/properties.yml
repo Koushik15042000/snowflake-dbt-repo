@@ -4,6 +4,7 @@ sources:
     schema: S3_ECOMM
     tables:
       - name: Users
+      - name : Person_sales
 
 
 models:
@@ -19,3 +20,6 @@ models:
   - name: "users_v3"
     config:
       materialized: 'view'
+  - name: "cust_v4"
+    config:
+      materialized: 'ephemeral'
